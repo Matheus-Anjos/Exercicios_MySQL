@@ -51,7 +51,7 @@ SELECT * FROM tb_produto WHERE preco > 50;
 /* produto com valor entre 3 e 60 reais*/
 SELECT * FROM tb_produto WHERE preco BETWEEN 3 AND 60;
 
-/*produto com nome que começa com a letra C */
+/*produto com nome que começa com a letra B */
 SELECT * FROM tb_produto WHERE nome LIKE 'B%';
 
 /*inner join entre tabela categoria e produto.*/
