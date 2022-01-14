@@ -58,7 +58,7 @@ SELECT * FROM tb_pizza WHERE sabor LIKE 'C%';
  
  /*pizza de uma categoria específica (exemplo todos os produtos que são pizza doce).*/
  SELECT * FROM tb_categoria INNER JOIN tb_pizza  ON tb_classe.id_categoria = tb_personagem.fk_categoria
- WHERE id_classe = 1 AND id_classe = 2;
+ WHERE id_categoria = 1 AND id_categoria = 2;
 
 
 
